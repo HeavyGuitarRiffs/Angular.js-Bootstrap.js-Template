@@ -1,0 +1,64 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+
+.test {
+
+    color: blue;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 10px;
+    background-image: url("https://images.app.goo.gl/FbWK4i8c4yiX24Nw8");
+    opacity: 100%;
+
+}
+
+div {
+
+    color: black;
+    background-color: lightgreen;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+.carousel {
+    width: 100%;
+    position: relative;
+    width: 1000px;
+    height: 400px;
+}
+
+.carousel-inner img{
+    /* make sure your .items will get correct height */
+    height: 100%;
+  }
+  
+  .carousel-item {
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100%;
+    width: 100%;
+   
+    object-fit:cover;
+  height:300px !important;
+  width:350px;
+  }
+  
+  .carousel img {
+    width:100% !important;
+    min-width:100% !important;
+    height: auto;
+}
+
+
+.carousel-indicators {
+
+    width:100% !important;
+    min-width:100% !important;
+    height: auto;
+
+}
